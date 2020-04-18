@@ -18,3 +18,30 @@
     position: relative;
     margin: 0 20px;
 }
+
+.header__right {
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    align-items: center;
+}
+.header__search span::before {
+    background: #898989;
+    content: "";
+    height: 15px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-70%);
+    transform: translateY(-70%);
+    width: 2px;
+}
+.header__account span::before {
+    background: #898989 none repeat scroll 0 0;
+    content: "";
+    height: 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2px;
+}
