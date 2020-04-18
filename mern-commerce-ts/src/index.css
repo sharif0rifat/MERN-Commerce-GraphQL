@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ul, ol {
+  list-style: none;
+}
+.menu-link{
+  cursor: pointer;
+  color: #333333;
+    display: block;
+    font-size: 14px;
+    height: 80px;
+    line-height: 80px;
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.menu-link:hover{
+  color: #c43b68;
+}

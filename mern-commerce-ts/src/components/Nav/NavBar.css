@@ -1,0 +1,20 @@
+.logo {
+    align-items: center;
+    display: flex;
+    height: 80px;
+    justify-content: flex-start;
+}
+
+.main__menu {
+    display: flex;
+    justify-content: center;
+}
+
+.main__menu li.drop {
+    position: relative;
+}
+
+.main__menu li {
+    position: relative;
+    margin: 0 20px;
+}
