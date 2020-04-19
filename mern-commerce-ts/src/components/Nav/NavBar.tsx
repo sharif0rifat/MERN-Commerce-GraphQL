@@ -1,7 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/css/bootstrap-grid.css'
-import 'bootstrap/dist/css/bootstrap-reboot.css'
+import 'bootstrap/dist/css/bootstrap-grid.css';
+import 'bootstrap/dist/css/bootstrap-reboot.css';
+import 'font-awesome/css/font-awesome.min.css';
 
 
 import './NavBar.css'
@@ -12,7 +13,7 @@ class NavBar extends React.Component {
                 <div  className="mainmenu__wrap sticky__header">
                         <div className="container">
                             <div className="row">
-                                <div className="col-lg-2 col-md-2 col-sm-3 col-xs-5"><div className="logo">Logo</div></div>
+                                <div className="col-lg-2 col-md-2 col-sm-3 col-xs-5"><div className="logo"><img src="img/mern-logo.png" alt="logo"/></div></div>
                                 <div className="col-md-7 col-lg-8 col-sm-5 col-xs-3">
                                     <nav className="main__menu__nav d-none d-md-block">
                                         <ul className="main__menu">
@@ -49,13 +50,13 @@ class NavBar extends React.Component {
                                 <div className="col-md-3 col-lg-2 col-sm-4 col-xs-4">
                                 <div className="header__right">
                                     <div className="header__search search search__open">
-                                        <span ><i className="icon-magnifier icons">S</i></span>
+                                        <span ><i className="fa fa-search"></i></span>
                                     </div>
                                     <div className="header__account">
-                                        <span ><i className="icon-user icons">U</i></span>
+                                    <span ><i className="fa fa-user"></i></span>
                                     </div>
                                     <div className="htc__shopping__cart">
-                                        <span className="cart__menu" >C<i className="icon-handbag icons"></i></span>
+                                    <span ><i className="fa fa-shopping-bag"></i></span>
                                         <span ><span className="htc__qua">2</span></span>
                                     </div>
                                 </div>
