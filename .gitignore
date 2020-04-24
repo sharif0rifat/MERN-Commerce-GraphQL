@@ -2,5 +2,7 @@ MERN-Commerce-JS/dist/
 MERN-Commerce-JS/node_modules/
 MERN-Commerce-JS/package-lock.json
 mern-commerce-ts/package-lock.json
+ecommerce-server/node_modules/
+ecommerce-server/package-lock.json
 
 .idea/
