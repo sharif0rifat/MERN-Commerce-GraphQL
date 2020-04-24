@@ -1,8 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 // import 'bootstrap/dist/css/bootstrap.css';
-import NavBar from './components/Nav/NavBar'
+import NavBar from "./components/Nav/NavBar";
+import Collection from "./components/collection/collection";
 
 // function App() {
 //   return (
@@ -29,6 +30,7 @@ function App() {
   return (
     <div className="App">
       <NavBar></NavBar>
+      <Collection></Collection>
     </div>
   );
 }

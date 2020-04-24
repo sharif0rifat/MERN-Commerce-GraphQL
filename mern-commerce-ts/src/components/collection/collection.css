@@ -1,0 +1,10 @@
+.slider-animation {
+  transform: translate3d(-4047px, 0px, 0px);
+  transition: all 0s ease 0s;
+  width: 8094px;
+}
+
+.row {
+  margin-left: -20px;
+  margin-right: -20px;
+}
