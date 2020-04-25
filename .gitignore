@@ -6,3 +6,5 @@ ecommerce-server/node_modules/
 ecommerce-server/package-lock.json
 
 .idea/
+
+dist/**/*
