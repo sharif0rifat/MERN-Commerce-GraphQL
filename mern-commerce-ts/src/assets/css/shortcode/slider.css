@@ -33,7 +33,7 @@
 .slider__fixed--height {
   align-items: center;
   display: flex;
-  height: 800px;
+  height: 530px;
 }
 .slider--one .slide {
   align-items: center;
