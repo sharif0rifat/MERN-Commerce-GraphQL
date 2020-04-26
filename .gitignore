@@ -8,3 +8,4 @@ ecommerce-server/package-lock.json
 .idea/
 
 dist/**/*
+ecommerce-server/dist/
