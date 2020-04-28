@@ -1,37 +1,25 @@
 import React from "react";
 import logo from "./logo.svg";
+import { BrowserRouter, Router, Route } from "react-router-dom";
+
 import "./App.css";
 // import 'bootstrap/dist/css/bootstrap.css';
 import NavBar from "./components/Nav/NavBar";
 import Collection from "./components/collection/collection";
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.tsx</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
+import Home from "./components/Home/Home";
+import SignIn from "./components/SignIn/SignIn";
 
 function App() {
   return (
-    <div className="App">
-      <NavBar></NavBar>
-      <Collection></Collection>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <NavBar></NavBar>
+        <Route exact path="/" component={Home} />
+        <Route path="/signin" component={SignIn} />
+        {/* <Home></Home>
+        <SignIn></SignIn> */}
+      </div>
+    </BrowserRouter>
   );
 }
 export default App;

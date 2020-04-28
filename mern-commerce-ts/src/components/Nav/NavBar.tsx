@@ -95,7 +95,7 @@ class NavBar extends React.Component {
                   </div>
                   <div className="header__account">
                     <span>
-                      <i className="fa fa-user"></i>
+                      <i className="fa fa-sign-in"></i>
                     </span>
                   </div>
                   <div className="htc__shopping__cart">
