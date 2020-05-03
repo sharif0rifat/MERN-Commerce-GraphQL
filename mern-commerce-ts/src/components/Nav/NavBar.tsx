@@ -22,7 +22,7 @@ class NavBar extends React.Component {
                 <nav className="main__menu__nav d-none d-md-block">
                   <ul className="main__menu">
                     <li className="drop">
-                      <span className="menu-link">HOME</span>{" "}
+                      <span className="menu-link"> HOME</span>{" "}
                     </li>
                     <li className="drop">
                       <span className="menu-link">WOMEN</span>{" "}
@@ -95,7 +95,9 @@ class NavBar extends React.Component {
                   </div>
                   <div className="header__account">
                     <span>
-                      <i className="fa fa-sign-in"></i>
+                      <a href="/signin">
+                        <i className="fa fa-sign-in"></i>
+                      </a>
                     </span>
                   </div>
                   <div className="htc__shopping__cart">
