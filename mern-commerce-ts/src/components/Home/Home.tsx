@@ -9,7 +9,7 @@ export default class Home extends React.Component<IHomeProps> {
     this.test.GetTestResult();
   }
   public render() {
-    // return <Collection></Collection>;
-    return <div>Home</div>;
+    return <Collection></Collection>;
+    //return <div>Home</div>;
   }
 }
