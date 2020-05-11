@@ -1,14 +1,12 @@
 import React from "react";
-import logo from "./logo.svg";
-import { BrowserRouter, Router, Route } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 
 import "./App.css";
 // import 'bootstrap/dist/css/bootstrap.css';
-import NavBar from "./components/Nav/NavBar";
-import Collection from "./components/collection/collection";
-import Home from "./components/Home/Home";
-import SignIn from "./components/SignIn/SignIn";
-import ProductDetail from "./components/product-detail/product-detail";
+import NavBar from "./common-components/Nav/NavBar";
+import Home from "./pages/Home/Home";
+import SignIn from "./common-components/SignIn/SignIn";
+import ProductDetail from "./pages/product-detail/product-detail";
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import * as React from "react";
-import Collection from "../collection/collection";
+import Collection from "./collection/collection";
 import TestService from "../../sevices/test";
 export interface IHomeProps {}
 

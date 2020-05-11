@@ -1,5 +1,5 @@
 import * as React from "react";
-import crsl from "../../assets/css/images/slider/fornt-img/2.png";
+import crsl from "../../../assets/css/images/slider/fornt-img/2.png";
 export interface ICarousalItemProps {
   chair: string;
 }
