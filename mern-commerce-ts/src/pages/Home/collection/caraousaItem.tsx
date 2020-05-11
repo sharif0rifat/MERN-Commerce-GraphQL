@@ -16,7 +16,7 @@ export default class CarousalItem extends React.Component<ICarousalItemProps> {
                   <h2>collection 2018</h2>
                   <h1>CHAIR {this.props.chair}</h1>
                   <div className="cr__btn">
-                    <a href="#">Shop Now</a>
+                    <a href="/product-detail/10/rifat">Shop Now</a>
                   </div>
                 </div>
               </div>
