@@ -1,5 +1,5 @@
 import * as React from "react";
-import "bootstrap/dist/css/bootstrap.css";
+// import "bootstrap/dist/css/bootstrap.css";
 import "../../../assets/css/shortcode/default.css";
 import "../../../assets/css/shortcode/slider.css";
 import "../../../assets/css/site/owl.carousel.min.css";

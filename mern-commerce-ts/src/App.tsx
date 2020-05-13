@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 
 import "./App.css";
-// import 'bootstrap/dist/css/bootstrap.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./common-components/Nav/NavBar";
 import Home from "./pages/Home/Home";
 import SignIn from "./common-components/SignIn/SignIn";
