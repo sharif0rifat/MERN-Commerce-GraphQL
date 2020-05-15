@@ -21,7 +21,31 @@ export default class ProductDetail extends Component<
       //   {this.props.match.params.name}
       // </div>
       <div>
-        <div>Bread Crumb</div>
+        <div>
+          <div className="container">
+            <div className="row">
+              <div className="col-12">
+                <div className="bradcaump__inner">
+                  <nav className="bradcaump-inner">
+                    <a className="breadcrumb-item" href="index.html">
+                      Home
+                    </a>
+                    <span className="brd-separetor">
+                      <i className="fa fa-chevron-right"></i>
+                    </span>
+                    <a className="breadcrumb-item" href="product-grid.html">
+                      Products
+                    </a>
+                    <span className="brd-separetor">
+                      <i className="fa fa-chevron-right"></i>
+                    </span>
+                    <span className="breadcrumb-item active">ean shirt</span>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="htc__product__details bg__white ptb--100">
           <div className="htc__product__details__top">
             <div className="container">
@@ -29,62 +53,12 @@ export default class ProductDetail extends Component<
                 <div className="col-md-5 col-lg-5 col-sm-12 col-xs-12">
                   <div className="htc__product__details__tab__content">
                     <div className="product__big__images">
-                      <div className="portfolio-full-image tab-content">
-                        <div className="tab-pane fade active in" id="img-tab-1">
-                          <img src="/img/1.jpg" />
-                        </div>
-                        <div className="tab-pane fade" id="img-tab-1">
-                          <img src="/img/1.jpg" />
-                        </div>
-                        <div className="tab-pane fade" id="img-tab-1">
-                          <img src="/img/1.jpg" />
-                        </div>
+                      <div className="tab-pane  active" id="img-tab-1">
+                        <img src="/img/1.jpg" />
                       </div>
                     </div>
-                    <ul className="product__small__images">
-                      <li role="presentation" className="pot-small-img">
-                        <a
-                          href="#img-tab-1"
-                          role="tab"
-                          data-toggle="tab"
-                          aria-expanded="false"
-                        >
-                          <img
-                            src="images/product-2/sm-img-3/3.jpg"
-                            alt="small-image"
-                          />
-                        </a>
-                      </li>
-                      <li role="presentation" className="pot-small-img">
-                        <a
-                          href="#img-tab-2"
-                          role="tab"
-                          data-toggle="tab"
-                          aria-expanded="false"
-                        >
-                          <img
-                            src="images/product-2/sm-img-3/1.jpg"
-                            alt="small-image"
-                          />
-                        </a>
-                      </li>
-                      <li role="presentation" className="pot-small-img active">
-                        <a
-                          href="#img-tab-3"
-                          role="tab"
-                          data-toggle="tab"
-                          aria-expanded="true"
-                        >
-                          <img
-                            src="images/product-2/sm-img-3/2.jpg"
-                            alt="small-image"
-                          />
-                        </a>
-                      </li>
-                    </ul>
                   </div>
                 </div>
-
                 <div className="col-md-7 col-lg-7 col-sm-12 col-xs-12 smt-40 xmt-40">
                   <div className="ht__product__dtl">
                     <h2>jean shirt to sassy girl</h2>
@@ -93,19 +67,19 @@ export default class ProductDetail extends Component<
                     </h6>
                     <ul className="rating">
                       <li>
-                        <i className="icon-star icons"></i>
+                        <i className="fa fa-star"></i>
                       </li>
                       <li>
-                        <i className="icon-star icons"></i>
+                        <i className="fa fa-star"></i>
                       </li>
                       <li>
-                        <i className="icon-star icons"></i>
+                        <i className="fa fa-star"></i>
                       </li>
                       <li className="old">
-                        <i className="icon-star icons"></i>
+                        <i className="fa fa-star"></i>
                       </li>
                       <li className="old">
-                        <i className="icon-star icons"></i>
+                        <i className="fa fa-star"></i>
                       </li>
                     </ul>
                     <ul className="pro__prize">
@@ -224,13 +198,13 @@ export default class ProductDetail extends Component<
                         <ul className="pro__share">
                           <li>
                             <a href="#" target="_blank">
-                              <i className="icon-social-twitter icons"></i>
+                              <i className="fa fa-twitter"></i>
                             </a>
                           </li>
 
                           <li>
                             <a href="#" target="_blank">
-                              <i className="icon-social-instagram icons"></i>
+                              <i className="fa fa-instagram"></i>
                             </a>
                           </li>
 
@@ -239,25 +213,25 @@ export default class ProductDetail extends Component<
                               href="https://www.facebook.com/Furny/?ref=bookmarks"
                               target="_blank"
                             >
-                              <i className="icon-social-facebook icons"></i>
+                              <i className="fa fa-facebook"></i>
                             </a>
                           </li>
 
                           <li>
                             <a href="#" target="_blank">
-                              <i className="icon-social-google icons"></i>
+                              <i className="fa fa-google"></i>
                             </a>
                           </li>
 
                           <li>
                             <a href="#" target="_blank">
-                              <i className="icon-social-linkedin icons"></i>
+                              <i className="fa fa-linkedin"></i>
                             </a>
                           </li>
 
                           <li>
                             <a href="#" target="_blank">
-                              <i className="icon-social-pinterest icons"></i>
+                              <i className="fa fa-pinterest-p"></i>
                             </a>
                           </li>
                         </ul>
