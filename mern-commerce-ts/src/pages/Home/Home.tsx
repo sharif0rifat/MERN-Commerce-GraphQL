@@ -10,8 +10,12 @@ export default class Home extends React.Component<IHomeProps> {
     this.test.GetTestResult();
   }
   public render() {
-    return <div><Collection></Collection>
-    <NewArrival></NewArrival></div>;
+    return (
+      <div>
+        <Collection></Collection>
+        <NewArrival></NewArrival>
+      </div>
+    );
     //return <div>Home</div>;
   }
 }

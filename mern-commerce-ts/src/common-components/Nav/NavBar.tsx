@@ -5,8 +5,23 @@ import "bootstrap/dist/css/bootstrap-reboot.css";
 import "font-awesome/css/font-awesome.min.css";
 import "./NavBar.css";
 import "../../assets/custom-icon/css/fontello.css";
+export interface IProps {}
+interface IState {
+  showCart: boolean;
+}
+class NavBar extends React.Component<IProps, IState> {
+  constructor(props: IProps) {
+    super(props);
 
-class NavBar extends React.Component {
+    this.state = {
+      showCart: false,
+    };
+  }
+  toggleCart() {
+    var show = !this.state.showCart;
+    console.log(show);
+    this.setState({ ...this.state, showCart: show });
+  }
   render() {
     return (
       <header>
@@ -41,50 +56,6 @@ class NavBar extends React.Component {
                     </li>
                   </ul>
                 </nav>
-                <div className="mobile-menu clearfix d-block d-md-none">
-                  <nav id="mobile_dropdown">
-                    <ul>
-                      <li>
-                        <span>Home</span>
-                      </li>
-                      <li>
-                        <span>blog</span>
-                      </li>
-                      <li>
-                        <span>pages</span>
-                        <ul>
-                          <li>
-                            <span>Blog</span>
-                          </li>
-                          <li>
-                            <span>Blog Details</span>
-                          </li>
-                          <li>
-                            <span>Cart page</span>
-                          </li>
-                          <li>
-                            <span>checkout</span>
-                          </li>
-                          <li>
-                            <span>contact</span>
-                          </li>
-                          <li>
-                            <span>product grid</span>
-                          </li>
-                          <li>
-                            <span>product details</span>
-                          </li>
-                          <li>
-                            <span>wishlist</span>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <span>contact</span>
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
               </div>
               <div className="col-md-3 col-lg-2 col-sm-4 col-xs-4">
                 <div className="header__right">
@@ -95,16 +66,35 @@ class NavBar extends React.Component {
                   </div>
                   <div className="header__account">
                     <span>
-                      <a href="/signin">
-                        <i className="fa fa-sign-in"></i>
-                      </a>
+                      <i className="fa fa-sign-in"></i>
                     </span>
                   </div>
                   <div className="htc__shopping__cart">
                     <span>
-                      <i className="fa fa-shopping-bag"></i>
+                      <i
+                        className="fa fa-shopping-bag"
+                        onClick={this.toggleCart.bind(this)}
+                      ></i>
                     </span>
                     <span className="htc__qua">2</span>
+
+                    <div
+                      className={
+                        this.state.showCart
+                          ? "dropdown-menu show-cart"
+                          : "dropdown-menu"
+                      }
+                    >
+                      <a className="dropdown-item" href="#">
+                        {this.state.showCart + ""}
+                      </a>
+                      <a className="dropdown-item" href="#">
+                        Another action
+                      </a>
+                      <a className="dropdown-item" href="#">
+                        Something else here
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
