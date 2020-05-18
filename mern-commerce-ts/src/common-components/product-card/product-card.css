@@ -1,0 +1,64 @@
+.category {
+  overflow: hidden;
+  position: relative;
+}
+.fr__hover__info {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.product__action {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+/* .product__action li:nth-child(1) {
+  opacity: 0;
+  transition: opacity 300ms linear 0s;
+} */
+.product__action li {
+  margin: 0;
+  margin-bottom: 2px;
+}
+.product__action li a {
+  background: #fefefe none repeat scroll 0 0;
+  display: inline-block;
+  height: 50px;
+  line-height: 60px;
+  text-align: center;
+  transition: all 0.4s ease 0s;
+  width: 50px;
+}
+.product__action li a:hover {
+  background: #c43b68 none repeat scroll 0 0;
+}
+.product__action li a:hover i {
+  color: #fff;
+}
+.fr__product__inner {
+  padding-top: 23px;
+  text-align: center;
+}
+.fr__product__inner h4 a {
+  color: #444;
+  font-family: Old Standard TT;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: capitalize;
+  transition: all 0.3s ease 0s;
+}
+.fr__pro__prize {
+  display: flex;
+  justify-content: center;
+  margin-top: 6px;
+}
+.fr__pro__prize li.old__prize {
+  color: #888888;
+}
+.fr__pro__prize li {
+  color: #313131;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 5px;
+}
