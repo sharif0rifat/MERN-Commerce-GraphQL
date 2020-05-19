@@ -62,7 +62,14 @@
 }
 
 /* -------Drop Down--- */
-
+.cart-menu {
+  position: absolute;
+  right: 0;
+  z-index: 1000;
+  display: none;
+  min-width: 10rem;
+  font-size: 1rem;
+}
 .show-cart {
   display: block;
 }

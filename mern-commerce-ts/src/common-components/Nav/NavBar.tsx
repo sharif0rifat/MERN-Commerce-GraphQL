@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap-reboot.css";
 import "font-awesome/css/font-awesome.min.css";
 import "./NavBar.css";
 import "../../assets/custom-icon/css/fontello.css";
+import MiniCart from "../cart/mini-cart";
 export interface IProps {}
 interface IState {
   showCart: boolean;
@@ -81,19 +82,11 @@ class NavBar extends React.Component<IProps, IState> {
                     <div
                       className={
                         this.state.showCart
-                          ? "dropdown-menu show-cart"
-                          : "dropdown-menu"
+                          ? "cart-menu show-cart"
+                          : "cart-menu"
                       }
                     >
-                      <a className="dropdown-item" href="#">
-                        {this.state.showCart + ""}
-                      </a>
-                      <a className="dropdown-item" href="#">
-                        Another action
-                      </a>
-                      <a className="dropdown-item" href="#">
-                        Something else here
-                      </a>
+                      <MiniCart></MiniCart>
                     </div>
                   </div>
                 </div>
