@@ -7,6 +7,7 @@ import NavBar from "./common-components/Nav/NavBar";
 import Home from "./pages/Home/Home";
 import SignIn from "./common-components/SignIn/SignIn";
 import ProductDetail from "./pages/product-detail/product-detail";
+import CartDetail from "./common-components/cart/cart-detail";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/signin" component={SignIn} />
         <Route path="/Product-detail/:id/:name" component={ProductDetail} />
+        <Route path="/cart-detail" component={CartDetail} />
         {/* <Home></Home>
         <SignIn></SignIn> */}
       </div>

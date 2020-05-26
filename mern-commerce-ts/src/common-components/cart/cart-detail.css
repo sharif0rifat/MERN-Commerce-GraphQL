@@ -1,0 +1,114 @@
+.table-content table {
+  text-align: center;
+}
+.table-content table th {
+  border-top: medium none;
+  padding: 20px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  font-weight: 600;
+  font-size: 16px;
+}
+.table-content table td {
+  border-top: medium none;
+  padding: 20px 10px;
+  vertical-align: middle;
+  font-size: 13px;
+}
+.table-content table td.product-name a:hover,
+.buttons-cart a:hover {
+  color: #c43b68;
+}
+.table-content table td.product-name a {
+  color: #444;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.pro__prize {
+  display: flex;
+  justify-content: center;
+  margin-top: 7px;
+}
+.product-remove i {
+  font-size: 25px;
+}
+.htc__cart__total {
+  padding-left: 70px;
+}
+.htc__cart__total h6 {
+  background: #c43b68 none repeat scroll 0 0;
+  font-size: 14px;
+  font-weight: 500;
+  height: 67px;
+  line-height: 65px;
+  padding: 0 32px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.cart__desk__list {
+  margin-bottom: 33px;
+  margin-top: 38px;
+  display: flex;
+  justify-content: space-between;
+}
+.cart__desc li {
+  color: #3f3f3f;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.cart__price li {
+  color: #3f3f3f;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+.cart__total {
+  border-top: 1px solid #ebebeb;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 18px;
+}
+.cart__total span {
+  color: #3f3f3f;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.payment__btn li + li {
+  margin-top: 15px;
+}
+.payment__btn li a {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  height: 65px;
+  line-height: 65px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.4s ease 0s;
+}
+.payment__btn li.active a {
+  background: #ebebeb;
+  color: #3f3f3f;
+}
+.payment__btn li.active a:hover {
+  background: #212121 none repeat scroll 0 0;
+  color: #fff;
+}
+.payment__btn li a {
+  background: #212121 none repeat scroll 0 0;
+  color: #fff;
+}
+.payment__btn li a:hover {
+  background: #ebebeb;
+  color: #3f3f3f;
+}

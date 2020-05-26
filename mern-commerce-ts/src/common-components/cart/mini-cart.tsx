@@ -64,10 +64,7 @@ export default class MiniCart extends Component<Props, State> {
           </ul>
           <ul className="shopping__btn">
             <li>
-              <a href="#">View Cart</a>
-            </li>
-            <li className="shp__checkout">
-              <a href="#">Checkout</a>
+              <a href="/cart-detail">View Cart</a>
             </li>
           </ul>
         </div>

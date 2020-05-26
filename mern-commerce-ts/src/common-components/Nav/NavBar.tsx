@@ -31,7 +31,9 @@ class NavBar extends React.Component<IProps, IState> {
             <div className="row">
               <div className="col-lg-2 col-md-2 col-sm-3 col-xs-5">
                 <div className="logo">
-                  <img src="/img/mern-logo.png" alt="logo" />
+                  <a href="/">
+                    <img src="/img/mern-logo.png" alt="logo" />
+                  </a>
                 </div>
               </div>
               <div className="col-md-7 col-lg-8 col-sm-5 col-xs-3">
